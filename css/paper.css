@@ -74,21 +74,31 @@ section{
 	margin-bottom: 50px;
 }
 
-#about{
+#about,#aa{
 	font:24px 微软雅黑;
 	color: #000000;
 	line-height: 40px;
+	border-bottom: solid 2px #000000;
+}
 
+#about{
+	width: 92px;
+}
+
+#aa{
+	width: 173px;
 }
 
 .up{
 	font-size:38px;
+
 }
 
 #about2{
 	font:12px 楷体;
 	color: #676767;
 	line-height: 10px;
+	margin-top: 5px;
 }
 
 #seven{
@@ -101,7 +111,7 @@ section{
 }
 
 #pink{
-	margin-top: -20px;
+	margin-top: -29px;
 }
 
 #point{
