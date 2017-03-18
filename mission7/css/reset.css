@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+/*body{
+ 	min-width: 1280px;
+ }*/
+
+.clearfloat{
+	zoom: 1;
+}
+
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+ul,li{
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}

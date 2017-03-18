@@ -1,0 +1,169 @@
+.public-header{
+	height: 56px;
+	background-color: #fff;
+}
+
+.public-header .logo{
+	background: url(../img/a.png) no-repeat;
+	width: 106px;
+	height: 34px;
+	float: left;
+	margin-left: 58px;
+	margin-top: 12px;
+}
+
+.public-header .nav{
+	margin-top: 14px;
+	margin-right: 50px;
+	float: right;
+
+}
+
+.public-header .nav ul{
+	width: 550px;
+	height: 38px;
+}
+
+.public-header .nav li a{
+	font:14px 微软雅黑;
+	color: #acaeb2;
+	line-height: 38px;
+}
+
+.public-header .nav li{
+	width: 65px;
+	height: 38px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+i{
+	background: url(../img/sprite.png);
+	display: block;
+}
+
+.public-header .nav li i{
+	width: 14px;
+	height: 17px;
+	margin: 10px 0px 0px 5px;
+	float: left;
+	background-position: 0px -342px;
+}
+
+.public-header .nav li:hover{
+	border-bottom: 4px solid #e74f4d;
+}
+
+.footer{
+	width: 100%;
+	height: 416px;
+	background-color: #32363e;	
+	overflow: hidden;
+	position: relative;
+}
+
+.footer .footer-header{
+	width: 511px;
+	height: 132px;
+	margin-top: 89px;
+	margin-left: 385px;
+	text-align: center;
+}
+
+.footer .footer-header .footer-title{
+	font: 21px 黑体;
+	color: #fff;
+	line-height: 48px;	
+}
+
+.footer .footer-header .footer-content{
+	font: 12px 宋体;
+	color: #ededee;
+	line-height: 18px;
+	letter-spacing: 1px;
+	padding-left: 22px;
+}
+
+.footer .footer-header .mail{
+	font: 14px 微软雅黑;
+	float: left;
+	width: 427px;
+	height: 42px;
+	border: 1px solid #999a9f;
+	margin-top: 31px;
+	padding-left: 10px;
+}
+
+.footer .footer-header .footer-submit{
+	width: 80px;
+	height: 44px;
+	border: none;
+	background-color: #6f7178;
+	position: absolute;
+	left: 824px;
+	top: 204px;
+	font: 15px 微软雅黑;
+	color: #fff;
+	line-height: 22px;
+}
+
+.footer .footer-header .qq{
+	background-position: 0px -202px;
+	width: 24px;
+	height: 25px;
+    position: absolute;
+    top: 280px;
+    left: 550px;
+}
+
+.footer .footer-header .webo{
+	background-position: 0px -237px;
+	width: 31px;
+	height: 25px;
+    position: absolute;
+    top: 280px;
+    left: 602px;
+}
+
+.footer .footer-header .fly{
+	background-position: 0px -272px;
+	width: 28px;
+	height: 25px;
+    position: absolute;
+    top: 280px;
+    left: 658px;
+}
+
+.footer .footer-header .safari{
+	background-position: 0px -307px;
+	width: 24px;
+	height: 25px;
+    position: absolute;
+    top: 280px;
+    left: 708px;
+}
+
+.footer .copyright{
+	margin-top: 136px;
+	height: 58px;
+	background-color: #303039;
+	overflow: hidden;
+}
+
+.footer .copyright p{
+	font: 12px 宋体;
+	color: #fff;
+	width: 68px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.footer .copyright span{
+	font: 12px 宋体;
+	color: #fff;
+	float: left;
+	margin-top: -14px;
+	margin-left: 1250px;
+}
+
