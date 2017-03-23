@@ -31,19 +31,32 @@ var aqiData = [
   遍历读取aqiData中各个城市的数据
   将空气质量指数大于60的城市显示到aqi-list的列表中
   */
-  for( var i=0,i<aqiData.length,i++){
-    if (aqiData[i][1]>60) {      
-      var data=document.getElementById("aqi-list");
-      var list=document.createElement("li");
-      data.appendChild("list");
-      var content=document.createTextNode("第"+i+"名:"+aqiData[i].toString()); 
-      list.appendChild("content");
-      list.sort(function(a,b){
-        return b-a});
-    }
+
+  //创建新数组存放污染城市
+  var badArray=[];
+  //遍历列表找出大于60的放入新数组
+  for (var i=0;i<aqiData.length;i++){
+    if (aqiData[i][1]>60)
+      badArray.push(aqiData[i]);
   }
+
+  //升序排列
+  badArray.sort(function(a,b){
+    return b[1]-a[1];
+  });
+  
+  //显示在HTML中
+  var list=document.getElementById("aqi-list");
+  for (var j=0;j<badArray.length;j++){
+    var index=j+1;
+    var content="第"+index+"名:"+badArray[j][0]+"，空气质量："+badArray[j][1];
+    var result=document.createElement("li");
+    result.innerHTML=content;
+    list.appendChild(result);
+  }
+
 })();
- 
+
 </script>
 </body>
 </html>
